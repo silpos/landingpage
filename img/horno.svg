@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 340">
+  <rect width="420" height="340" rx="24" fill="#efd9bd"/>
+  <!-- horno de barro -->
+  <path d="M70 280 v-90 a140 130 0 0 1 280 0 v90 z" fill="#b5653a"/>
+  <path d="M95 280 v-85 a115 105 0 0 1 230 0 v85" fill="none" stroke="#9a5230" stroke-width="6"/>
+  <path d="M160 280 v-60 a50 50 0 0 1 100 0 v60 z" fill="#3d2418"/>
+  <path d="M175 280 q12 -40 22 -18 q8 -36 20 -6 q10 -28 18 24 z" fill="#f2a33a"/>
+  <path d="M190 280 q8 -20 14 -6 q6 -16 12 6 z" fill="#ffd36b"/>
+  <rect x="50" y="278" width="320" height="18" rx="6" fill="#7d4a2b"/>
+  <!-- humo -->
+  <path d="M290 95 q-14 -20 4 -36 q18 -16 4 -36" stroke="#c9b294" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="275" y="92" width="34" height="40" fill="#9a5230"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360">
+  <circle cx="210" cy="190" r="165" fill="#efd9bd"/>
+  <!-- baguette -->
+  <g transform="rotate(-28 200 150)">
+    <rect x="80" y="125" width="250" height="54" rx="27" fill="#d9954f"/>
+    <path d="M120 140 q12 12 4 26 M165 138 q12 12 4 28 M210 138 q12 12 4 28 M255 138 q12 12 4 28 M295 140 q10 12 4 26" stroke="#f3cf9c" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- pan redondo -->
+  <ellipse cx="290" cy="190" rx="70" ry="52" fill="#c97c3c"/>
+  <path d="M250 180 q40 -26 80 0" stroke="#efc08a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- pandebonos -->
+  <circle cx="135" cy="205" r="34" fill="#e8b25e"/>
+  <circle cx="125" cy="195" r="9" fill="#f5d38f"/>
+  <circle cx="200" cy="200" r="30" fill="#e5a94f"/>
+  <circle cx="192" cy="190" r="8" fill="#f5d38f"/>
+  <!-- canasta -->
+  <path d="M70 215 h280 l-30 110 h-220 z" fill="#8a5a36"/>
+  <path d="M70 215 h280" stroke="#6e4527" stroke-width="14" stroke-linecap="round"/>
+  <path d="M95 250 h230 M105 285 h210" stroke="#6e4527" stroke-width="6"/>
+  <path d="M130 225 l10 95 M175 225 l4 95 M220 225 l-2 95 M265 225 l-8 95 M305 225 l-14 95" stroke="#a87449" stroke-width="5"/>
+  <!-- trapo -->
+  <path d="M300 208 q30 10 52 40 l-30 6 q-8 -22 -30 -30 z" fill="#c8643b"/>
+</svg>

@@ -1,0 +1,335 @@
+/* Paleta
+   crema    #f7efe3
+   cafe     #4a2e20
+   ladrillo #c8643b
+   oliva    #6b7b4b
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f7efe3;
+  color: #4a2e20;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+  line-height: 1.2;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #c8643b;
+  color: #fff;
+  padding: 14px 26px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.boton:hover {
+  background-color: #a94f2b;
+}
+
+.boton-pequeno {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.boton-claro {
+  background-color: #f7efe3;
+  color: #4a2e20;
+}
+
+.boton-claro:hover {
+  background-color: #fff;
+}
+
+.encabezado {
+  padding: 22px 0;
+}
+
+.encabezado-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Fraunces', serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #c8643b;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.menu a {
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: #c8643b;
+}
+
+.portada {
+  padding: 50px 0 80px;
+}
+
+.portada-fila {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.portada-texto {
+  flex: 1;
+}
+
+.portada-imagen {
+  flex: 1;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #e3e6d3;
+  color: #6b7b4b;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+.portada h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.portada-texto p {
+  font-size: 18px;
+  max-width: 480px;
+}
+
+.portada-botones {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.enlace {
+  font-weight: 700;
+  border-bottom: 2px solid #c8643b;
+}
+
+.productos {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.productos h2,
+.productos .subtitulo {
+  text-align: center;
+}
+
+.productos h2 {
+  font-size: 38px;
+}
+
+.subtitulo {
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 28px;
+}
+
+.tarjeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7efe3;
+  border-radius: 18px;
+  padding: 28px;
+}
+
+.tarjeta img {
+  width: 160px;
+  margin: 0 auto 18px;
+}
+
+.tarjeta h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.tarjeta p {
+  flex: 1;
+  margin-bottom: 18px;
+}
+
+.precio {
+  font-weight: 700;
+  color: #c8643b;
+  font-size: 18px;
+}
+
+.historia {
+  padding: 90px 0;
+}
+
+.historia-fila {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.historia-imagen,
+.historia-texto {
+  flex: 1;
+}
+
+.historia h2 {
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+.historia-texto p {
+  margin-bottom: 14px;
+}
+
+.datos {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+  margin-top: 28px;
+}
+
+.datos li {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.datos strong {
+  font-family: 'Fraunces', serif;
+  font-size: 36px;
+  color: #6b7b4b;
+  line-height: 1;
+}
+
+.visitanos {
+  padding-bottom: 80px;
+}
+
+.visitanos-caja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: #4a2e20;
+  color: #f7efe3;
+  border-radius: 24px;
+  padding: 50px 56px;
+}
+
+.visitanos h2 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.visitanos-texto p {
+  margin-bottom: 6px;
+}
+
+.visitanos-accion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.pie {
+  border-top: 1px solid #e4d3bb;
+  padding: 24px 0;
+  font-size: 14px;
+}
+
+.pie-fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .portada-fila,
+  .historia-fila,
+  .tarjetas,
+  .visitanos-caja {
+    flex-direction: column;
+  }
+
+  .portada-texto,
+  .portada-imagen,
+  .historia-imagen,
+  .historia-texto,
+  .tarjeta {
+    flex: none;
+    width: 100%;
+  }
+
+  .portada-botones {
+    flex-wrap: wrap;
+  }
+
+  .portada {
+    padding-top: 20px;
+  }
+
+  .portada h1 {
+    font-size: 36px;
+  }
+
+  .visitanos-caja {
+    align-items: flex-start;
+    padding: 36px 28px;
+  }
+
+  .pie-fila {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
